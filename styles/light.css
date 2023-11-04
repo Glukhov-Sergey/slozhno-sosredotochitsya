@@ -12,6 +12,7 @@
   .page.theme_light {
     --bg-color: #fff1f7;
     --accent-title-color: #ffc2e6;
+    --active-button-color: #353430;
     --title-color: #353430;
     --accent-color: #ff8dcb;
     --accent-color-subtitle: #353430;
@@ -22,40 +23,15 @@
     background-image: url(../images/cover-image-light.png);
   }
   
-  .theme_light .pseudo-element {
+  .pseudo-element {
     display: none;
   }
-  
-  .theme_light .header__theme-menu-button_active {
-    border: 1px solid var(--title-color, #353430);
-  }
-  
-  .theme_light .header__theme-menu-button {
-    color: var(--title-color, #353430);
-  }
-  
+    
   .theme_light .header__theme-menu-button:hover {
     outline: 1px solid rgba(50, 49, 45, 0.4);
     cursor: pointer;
   }
   
-  .theme_light .header__theme-menu-button:focus {
-    outline: none;
-  }
-  
-  .theme_light .header__theme-menu-button:focus-visible {
-    border-block-end: 1px solid var(--title-color, #353430);
-  }
-  
-  .theme_light .decorated-zone::before {
-    border-block-start: 1px solid var(--title-color, #353430);
-    border-inline-end: 1px solid var(--title-color, #353430);
-  }
-  
-  .theme_light .decorated-zone::after {
-    border-block-end: 1px solid var(--title-color, #353430);
-    border-inline-start: 1px solid var(--title-color, #353430);
-  }
   
   /* Остальные стили */
   
@@ -63,6 +39,7 @@
     :root {
       --bg-color: #fff1f7;
       --accent-title-color: #ffc2e6;
+      --active-button-color: #353430;
       --title-color: #353430;
       --accent-color: #ff8dcb;
       --accent-color-subtitle: #353430;
@@ -75,37 +52,8 @@
       background-image: url(../images/cover-image-light.png);
     }
   
-    .pseudo-element {
-      display: none;
-    }
-  
-    .header__theme-menu-button_active {
-      border: 1px solid var(--title-color, #353430);
-    }
-  
-    .header__theme-menu-button {
-      color: var(--title-color, #353430);
-    }
-  
     .header__theme-menu-button:hover {
       outline: 1px solid rgba(50, 49, 45, 0.4);
     }
   
-    .header__theme-menu-button:focus {
-      outline: none;
-    }
-  
-    .header__theme-menu-button:focus-visible {
-      border-block-end: 1px solid var(--title-color, #353430);
-    }
-  
-    .decorated-zone::before {
-      border-block-start: 1px solid var(--title-color, #353430);
-      border-inline-end: 1px solid var(--title-color, #353430);
-    }
-  
-    .decorated-zone::after {
-      border-block-end: 1px solid var(--title-color, #353430);
-      border-inline-start: 1px solid var(--title-color, #353430);
-    }
   }

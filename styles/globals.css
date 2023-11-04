@@ -6,9 +6,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --main-font-family: "IBM Plex Mono", "monospace";
-}
 
 body {
   min-inline-size: 375px;
